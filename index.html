@@ -40,16 +40,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="two-column__media">
-                    <img src="assets/images/man-1.png" alt="">
-                </div>
+                <div class="two-column__media" style="background-image: url('assets/images/man-1.svg');"></div>
             </div>
         </section>
         <section class="two-column">
             <div class="container container--flex two-column__container">
-                <div class="two-column__media">
-                    <img src="assets/images/man-2.png" alt="">
-                </div>
+                <div class="two-column__media" style="background-image: url('assets/images/man-2.svg');"></div>
                 <div class="two-column__text">
                     <h2 class="h2 two-column__text-headline">Save on your own terms</h2>
                     <p class="lead two-column__text-lead">Savings give you financial options</p>
@@ -72,24 +68,15 @@
             <div class="container">
                 <h2 class="h2">How it works</h2>
                 <ul class="guide-list">
-                    <li class="guide-list__item guide-list__item--purple">
-                        <picture class="guide-list__item-icon">
-                            <img src="assets/icons/icon-guide-step-1.svg" width="55" alt="">
-                        </picture>
+                    <li class="guide-list__item guide-list__item--purple guide-list__item--account">
                         <h3 class="h3 guide-list__item-headline">Set up an account</h3>
                         <p class="guide-list__item-desc">Download the app for free, sign up and verify your account.</p>
                     </li>
-                    <li class="guide-list__item guide-list__item--orange">
-                        <picture class="guide-list__item-icon">
-                            <img src="assets/icons/icon-guide-step-2.svg" width="70" alt="">
-                        </picture>
+                    <li class="guide-list__item guide-list__item--orange guide-list__item--application">
                         <h3 class="h3 guide-list__item-headline">Apply for a loan</h3>
                         <p class="guide-list__item-desc">Apply for a loan and our technology will run a credit score and decide if you are qualified.</p>
                     </li>
-                    <li class="guide-list__item guide-list__item--green">
-                        <picture class="guide-list__item-icon">
-                            <img src="assets/icons/icon-guide-step-3.svg" width="65" alt="">
-                        </picture>
+                    <li class="guide-list__item guide-list__item--green guide-list__item--cash">
                         <h3 class="h3 guide-list__item-headline">Get your cash</h3>
                         <p class="guide-list__item-desc">If you qualify, your loan will be disbursed to your wallet.</p>
                     </li>
@@ -115,24 +102,28 @@
         </section>
     </main>
     <footer class="footer">
-        <address class="container container--flex footer__container">
+        <div class="container container--flex footer__container">
             <picture class="logo">
                 <img src="assets/logo.svg" width="150" alt="irorun">
             </picture>
-            <dl class="footer__section">
-                <dt>Office</dt>
-                <dd>4 Perez Drive, <br> Lekki Phase 1, <br> Lagos.</dd>
-            </dl>
-            <dl class="footer__section">
-                <dt>Contact</dt>
-                <dd><a href="mailto:hello@irorun.com">hello@irorun.com</a></dd>
-                <dd><a href="tel:+234 809 666 8877">+234 809 666 8877</a></dd>
-            </dl>
+            <address class="footer__section">
+                <dl class="footer__section-info">
+                    <dt>Office</dt>
+                    <dd>4 Perez Drive, <br> Lekki Phase 1, <br> Lagos.</dd>
+                </dl>
+            </address>
+            <address class="footer__section">
+                <dl class="footer__section-info">
+                    <dt>Contact</dt>
+                    <dd><a href="mailto:hello@irorun.com">hello@irorun.com</a></dd>
+                    <dd><a href="tel:+234 809 666 8877">+234 809 666 8877</a></dd>
+                </dl>
+            </address>
             <dl class="footer__section">
                 <dt>Powered by YesCredit Limited.</dt>
                 <dd>licensed as a Money Lender by the Lagos State Government of Nigeria.</dd>
             </div>
-        </address>
+        </div>
     </footer>
 </body>
 </html>
